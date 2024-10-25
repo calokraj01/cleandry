@@ -1,0 +1,376 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clean & Dry</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'styles.css'%}" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="navbar">
+        <div class="logo">
+          <img
+            class="logo-img"
+            src="{% static 'all-images/clean-and-dry1.jpeg'%}"
+            alt=""
+          />
+        </div>
+        <ul class="links">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#location">Location</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="toggle-btn"></div>
+        <div class="dropdown-menu">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#location">Location</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </div>
+      </div>
+    </header>
+
+    <div class="main">
+      <div class="margin-div"></div>
+      <div class="content">
+        <h3>~Best Dry Cleaning Services~</h3>
+      </div>
+      <div class="margin-div" id="services"></div>
+      <div class="procedure-container">
+        <div class="titles">
+          <h2>Procedure</h2>
+        </div>
+        <div class="card">
+          <img
+            src="{% static 'all-images/delivery-man.webp'%}"
+            alt=""
+            class="management-image"
+          />
+          <div class="card-content">
+            <h3>Step 1</h3>
+            <p>
+              <li>
+                Pick-up and delivery will be our top priority. As per our
+                discussion, we will try to honor the scheduled timings that you
+                have specified for the pick-up and delivery and it will be done
+                twice in a week.
+              </li>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="{% static 'all-images/delivery-check-paper.jpg'%}"
+            alt=""
+            class="management-image"
+          />
+          <div class="card-content">
+            <h3>Step 2</h3>
+            <p>
+              <li>
+                Executive will verify the cloths and issues a unique code or
+                number or an ID to each individual.
+              </li>
+              <li>
+                This unique code which is assigned to the customer is permanent
+                and will be easy to track.
+              </li>
+              <li>
+                NOTE: This unique code is common for all the cloths of that
+                particular customer.
+              </li>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="{% static 'all-images/delivery-bag.png'%}"
+            alt=""
+            class="management-image"
+          />
+          <div class="card-content">
+            <h3>Step 3</h3>
+            <p>
+              <li>
+                After assigning the code, the material will be placed in a bag
+                and this bag is also labeled with the same unique code given
+                belonging to the customer.
+              </li>
+              <li>
+                * Individual bags will be maintained for each individual
+                customer
+              </li>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="{% static 'all-images/delivery-guy-receiver.jpeg'%}"
+            alt=""
+            class="management-image"
+          />
+          <div class="card-content">
+            <h3>Step 4</h3>
+            <p>
+              <li>
+                Executive will receive the bag with material for washing and
+                dewrinkling from the customer after counting and verification as
+                per the unique code assigned.
+              </li>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="{% static 'all-images/hangers.jpeg'%}"
+            alt=""
+            class="management-image"
+          />
+          <div class="card-content">
+            <h3>Step 5</h3>
+            <p>
+              <li>
+                Once the executive reaches to our hud, he will decode the
+                material as per the unique ID of the customer.
+              </li>
+              <li>
+                He will verify again for any valuables placed inside the
+                material and make it ready for a wash.
+              </li>
+              <li>
+                NOTE: Washing is also as per the unique code given and it will
+                not be mixed with other codes.
+              </li>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="{% static 'all-images/laundry.jpeg'%}"
+            alt=""
+            class="management-image"
+          />
+          <div class="card-content">
+            <h3>Step 6</h3>
+            <p>
+              <li>Washing is done with proper precaution and care.</li>
+              <li>
+                * Washing of material is also as per the individual unique
+                codes.
+              </li>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="{% static 'all-images/iron.jpg'%}"
+            alt=""
+            class="management-image"
+          />
+          <div class="card-content">
+            <h3>Step 7</h3>
+            <p>
+              <li>
+                After washing, these material will be sent for dewrinkling or
+                pressing, as per the individuals unique code.
+              </li>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="{% static 'all-images/delivery-bag.png'%}"
+            alt=""
+            class="management-image"
+          />
+          <div class="card-content">
+            <h3>Step 8</h3>
+            <p>
+              <li>
+                Once the material is dewrinkled or pressed, it will be placed in
+                the same bags which were assigned the same unique code.
+              </li>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="{% static 'all-images/delivery-truck.jpg'%}"
+            alt=""
+            class="management-image"
+          />
+          <div class="card-content">
+            <h3>Step 9</h3>
+            <p>
+              <li>
+                Finally, as per our commitment, the material will be delivered
+                and will be handed over to the customer.
+              </li>
+              <li>* As per the unique code.</li>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="margin-div" id="about"></div>
+      <div class="about-container">
+        <div class="titles">
+          <h2>About</h2>
+        </div>
+        <div class="about-box">
+          <h3 class="about-header">About us</h3>
+          <p>
+            Welcome to Clean &amp; Dry, where we bring quality, convenience, and
+            care to your doorstep with exceptional dry cleaning services.
+            Whether it's delicate fabrics, business attire, or everyday wear,
+            our expert team uses the latest eco-friendly techniques to ensure
+            your items come back looking and feeling their best. With our easy
+            online booking, you can schedule pickups and deliveries at times
+            that work for you, saving you time and hassle. We treat every item
+            with attention to detail, handling tough stains, delicate materials,
+            and special requests with precision and care. Trust us to make your
+            wardrobe look pristine and keep your items in top shape. Choose lean
+            &amp; Dry for dry cleaning you can depend on, every time.
+          </p>
+        </div>
+        <div class="about-box">
+          <h3 class="about-header">Terms And Conditions</h3>
+          <ol>
+            <li>
+              Not responsible for the speeding of the colour or shrinkage of
+              material and does not guarantee 100% stain removal.
+            </li>
+            <li>
+              Cannot be held responsible for breaking buttons, hooks, beads,
+              trimming or threads-outs.
+            </li>
+            <li>
+              Not be liable for any delays, losses or damages arising out of
+              unforeseen circumstances or out of control.
+            </li>
+            <li>Any material exchange must be notified within 24 hours.</li>
+            <li>
+              customers are informed to measure the fabric at the time of
+              delivery, any deficiency at the time of delivery should be
+              reported.
+            </li>
+            <li>
+              customers are informed to inspect their material before delivery
+              for any postnatal damage.
+            </li>
+          </ol>
+        </div>
+      </div>
+      <div class="margin-div" id="location"></div>
+      <div class="location-page">
+        <div class="titles">
+          <h2>Location</h2>
+        </div>
+        <div class="map-section">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30443.191613276485!2d78.3635217793352!3d17.48845898859954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9226c6276feb%3A0x4dc887d1d8cf70a2!2sHyderabad%2C%20Telangana%20500085!5e0!3m2!1sen!2sin!4v1729839734195!5m2!1sen!2sin"
+            style="border: 0"
+            height="60%"
+            width="100%"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+          <div class="contact-info">
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <p>1234 Street Name, City, Country</p>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-phone"></i>
+              <p>+1234567890</p>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-envelope"></i>
+              <p>email@example.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="margin-div" id="contact"></div>
+      <div class="contact-container">
+        <h1 class="contact-heading">Contact Us</h1>
+        <form action="#contact" method="POST" class="contact-form">
+          {% csrf_token %}
+          <label for="name" class="contact-label">Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            class="contact-input"
+            placeholder="Your full name"
+            required
+          />
+
+          <label for="phone" class="contact-label">Mobile Number</label>
+          <input
+            type="phone"
+            id="phone"
+            name="phone"
+            class="contact-input"
+            placeholder="Your phone number"
+            required
+          />
+
+          <label for="message" class="contact-label">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            class="contact-textarea"
+            placeholder="Your message"
+            required
+          ></textarea>
+
+          <button type="submit" class="contact-btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <div class="about-end-div">
+        <h4>
+          Thank you for Your Trust on us.....!! For <span>Clean & Dry</span>
+        </h4>
+      </div>
+      <p>&copy; Clean and Dry</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+
+    <script>
+      const toggleBtn = document.querySelector(".toggle-btn");
+      const dropDownMenu = document.querySelector(".dropdown-menu");
+
+      toggleBtn.onclick = function () {
+        dropDownMenu.classList.toggle("open");
+        const isOpen = dropDownMenu.classList.contains("open");
+      };
+
+      const dropdownItems = dropDownMenu.querySelectorAll("li");
+      dropdownItems.forEach((item) => {
+        item.onclick = function () {
+          dropDownMenu.classList.remove("open");
+        };
+      });
+    </script>
+  </body>
+</html>
